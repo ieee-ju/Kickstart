@@ -29,10 +29,22 @@
               alt="Booking Image"
             />
           </div>
+          <script type="text/javascript">
+            var submitted = false;
+            const homeurl = "https://ieee-jaduniv.in/";
+          </script>
+          <iframe
+            name="hidden_iframe"
+            id="hidden_iframe"
+            style="display: none"
+            onload="if(submitted)  {window.location.href=homeurl;}"
+          ></iframe>
           <div class="booking-form">
             <form
               action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdUPbNJwUrgZDxqvRb5AZQYgdqwf6jQicH24Ws9pqboPB0Uzw/formResponse"
               id="booking-form"
+              target="hidden_iframe"
+              onsubmit="submitted=true;"
             >
               <h2>Register yourself!</h2>
               <div class="form-group form-input">
