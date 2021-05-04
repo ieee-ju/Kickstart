@@ -348,7 +348,7 @@ body {
 .booking-img {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  height: 620px;
+  height: 630px;
 }
 
 .booking-form {
@@ -654,6 +654,7 @@ li.init:after {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     width: 100%;
+    height: auto;
   }
 }
 @media screen and (max-width: 480px) {
